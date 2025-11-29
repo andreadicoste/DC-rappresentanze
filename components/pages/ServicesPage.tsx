@@ -5,7 +5,20 @@ import { COMPANY_DATA } from '../../constants';
 
 const iconsMap = [Bag, Shop, Cart, GraphUp, Bag, Shop];
 
-export default function ServicesPage() {
+type Page =
+  | 'home'
+  | 'about'
+  | 'services'
+  | 'contact'
+  | 'blog'
+  | 'blog-post'
+  | 'quote';
+
+type ServicesPageProps = {
+  onNavigate?: (page: Page) => void;
+};
+
+export default function ServicesPage(_props: ServicesPageProps) {
   return (
     <div className="pt-24 min-h-screen bg-[#F8FAFC]">
       

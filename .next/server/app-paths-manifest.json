@@ -1,3 +1,12 @@
 {
-  "/page": "app/page.js"
+  "/_not-found": "app/_not-found.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/form-preventivo/page": "app/form-preventivo/page.js",
+  "/preventivo/page": "app/preventivo/page.js",
+  "/chi-siamo/page": "app/chi-siamo/page.js",
+  "/page": "app/page.js",
+  "/contatti/page": "app/contatti/page.js",
+  "/servizi/page": "app/servizi/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js"
 }
