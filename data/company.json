@@ -1,0 +1,92 @@
+{
+  "companyId": "8d43cc6f-29a5-41e2-983c-02fb5bbf3cdd",
+  "siteLanguage": "it",
+  "siteTone": "professionale, tecnico, affidabile",
+  "siteVoice": {
+    "targetAudience": "clienti locali",
+    "style": "chiaro, diretto, basato su benefici"
+  },
+  "business": {
+    "name": "DC Rappresentanze",
+    "city": "Fragagnano (TA)",
+    "address": "Via Carducci 16, 74022, Fragagnano (TA)",
+    "email": "patriziodicoste@libero.it",
+    "phone": "+39 380 798 2866",
+    "services": [
+      "Rappresentanza commerciale per aziende del settore alimentare",
+      "Gestione vendite B2B e sviluppo portafoglio clienti",
+      "Introduzione e posizionamento prodotti presso GDO, cash & carry e vending",
+      "Consulenza commerciale e supporto trattative",
+      "Monitoraggio ordini e follow-up clienti",
+      "Analisi di performance vendite per i marchi rappresentati"
+    ],
+    "specializations": [
+      "Distribuzione alimentare B2B in Puglia",
+      "Cash & Carry e ingrosso",
+      "Vending e distributori automatici",
+      "Prodotti dolciari e snack",
+      "Beverage e prodotti da banco"
+    ],
+    "certifications": [
+      "Iscrizione Registro Imprese",
+      "Partita IVA regolare"
+    ]
+  },
+ 
+  "seo": {
+    "defaultTitle": "DC Rappresentanze - Agenzia di rappresentanza alimentare B2B in Puglia",
+    "defaultDescription": "DC Rappresentanze gestisce vendite B2B per aziende del settore alimentare in tutta la Puglia, con un approccio moderno e organizzato alle relazioni commerciali.",
+    "keywords": [
+      "rappresentanza alimentare",
+      "vendite B2B alimentari Puglia",
+      "agenzia rappresentanza Fragagnano",
+      "distribuzione alimentare ingrosso",
+      "agente di commercio settore food"
+    ]
+  },
+  "pages": {
+    "home": true,
+    "chiSiamo": true,
+    "servizi": true,
+    "blog": true,
+    "contatti": true,
+    "preventivatore": true
+  },
+  "reviews": [
+    {
+      "author": "Lombardi Cash & Carry",
+      "text": "Gestione commerciale precisa e professionale, con attenzione costante ai risultati.",
+      "rating": 5
+    },
+    {
+      "author": "Pellegrino Vending",
+      "text": "Ottimo supporto nelle trattative e nella cura delle relazioni con i clienti.",
+      "rating": 5
+    }
+  ],
+  "leadCapture": {
+    "formSuccessMessage": "Grazie! Ti ricontatteremo entro 24 ore."
+  },
+  "contactMapping": {
+    "notesPrefix": "Dati preventivo",
+    "source": "preventivatore",
+    "defaultStage": "da contattare"
+  },
+  "preventivatore": {
+    "basePrices": {
+      "ingresso_gdo": 1800,
+      "cash_carry": 1400,
+      "vending": 1200,
+      "audit_portafoglio": 950
+    },
+    "addons": [
+      { "id": "reportistica", "label": "Reportistica avanzata", "price": 250 },
+      { "id": "formazione", "label": "Formazione rete vendita", "price": 350 },
+      { "id": "fiere", "label": "Supporto fiere/degustazioni", "price": 300 }
+    ],
+    "multipliers": {
+      "urgenza_alta": 1.15,
+      "target_catena_top": 1.1
+    }
+  }
+}

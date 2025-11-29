@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta
+      name="description"
+      content="DC Rappresentanze - Agenzia di rappresentanza alimentare B2B in Puglia. Gestione vendite e sviluppo portafoglio clienti."
+    />
+    <title>DC Rappresentanze | Agenzia Alimentare B2B</title>
+    <link rel="icon" href="https://res.cloudinary.com/dz3v8yda9/image/upload/v1764439063/dc-royal_vrzzmd.svg" type="image/svg+xml">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Fontshare: Satoshi -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: '#0F172A', // Navy Blue Professional (Slate 900)
+                dark: '#020617',    // Deepest Navy (Slate 950)
+                accent: '#2563EB',  // Royal Blue (Blue 600)
+                light: '#F8FAFC',   // Slate 50 (Background)
+                text: '#334155',    // Slate 700 (Body text)
+                headings: '#1E293B', // Slate 800 (Headings)
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Satoshi', 'sans-serif'],
+            },
+            backgroundImage: {
+              'gradient-corporate': 'linear-gradient(to bottom right, #F8FAFC, #E2E8F0)',
+              'gradient-blue': 'linear-gradient(to right, #2563EB, #1D4ED8)',
+            },
+            boxShadow: {
+              'glass': '0 20px 40px rgba(15, 23, 42, 0.05)',
+              'soft': '0 10px 30px -10px rgba(0,0,0,0.05)',
+              'glow': '0 0 20px rgba(37, 99, 235, 0.2)',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #F8FAFC; /* Light Corporate Base */
+        color: #334155;
+        overflow-x: hidden;
+      }
+      
+      /* Glassmorphism System - Light Mode */
+      .glass-panel {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      }
+      
+      .glass-card {
+        background: #FFFFFF;
+        border: 1px solid #E2E8F0;
+        transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+      }
+      
+      .glass-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.01);
+        border-color: #CBD5E1;
+      }
+
+      /* Typography Utilities */
+      .text-balance {
+        text-wrap: balance;
+      }
+      
+      .text-gradient {
+        background: linear-gradient(135deg, #0F172A 0%, #2563EB 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      /* 3D Sphere Simulation - Light Corporate */
+      .sphere-3d {
+        background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8) 0%, rgba(219, 234, 254, 1) 40%, rgba(147, 197, 253, 0.4) 80%);
+        box-shadow: inset -5px -5px 15px rgba(37, 99, 235, 0.1), 0 20px 40px rgba(37, 99, 235, 0.15);
+      }
+      
+      .sphere-metallic {
+        background: radial-gradient(circle at 30% 30%, #F1F5F9 0%, #CBD5E1 100%);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.0.8",
+    "tailwindcss": "https://aistudiocdn.com/tailwindcss@^4.1.17",
+    "@tailwindcss/typography": "https://aistudiocdn.com/@tailwindcss/typography@^0.5.19",
+    "next/": "https://aistudiocdn.com/next@^16.0.5/",
+    "next": "https://aistudiocdn.com/next@^16.0.5"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

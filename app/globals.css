@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 51, 65, 85;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 248, 250, 252;
+  --font-inter: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
+    rgb(var(--background-start-rgb));
+  overflow-x: hidden;
+}
+
+/* Glassmorphism System - Light Mode */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.glass-card {
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.01);
+  border-color: #CBD5E1;
+}
+
+/* 3D Sphere Simulation */
+.sphere-3d {
+  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8) 0%, rgba(219, 234, 254, 1) 40%, rgba(147, 197, 253, 0.4) 80%);
+  box-shadow: inset -5px -5px 15px rgba(37, 99, 235, 0.1), 0 20px 40px rgba(37, 99, 235, 0.15);
+}
+
+.sphere-metallic {
+  background: radial-gradient(circle at 30% 30%, #F1F5F9 0%, #CBD5E1 100%);
+}
